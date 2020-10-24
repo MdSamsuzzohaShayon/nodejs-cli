@@ -19,8 +19,8 @@ program
     .parse(process.argv);
 
 
-console.log("Hello from coindex.js");
+// console.log("Hello from coindex.js");
 // GET ALL INDEX VALUE
-console.log(process.argv);
+// console.log(process.argv);
 // GET VALUE OF INDEX TWO
-console.log(process.argv[2]);
+// console.log(process.argv[2]);
