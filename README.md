@@ -32,4 +32,4 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
  - `coindex --help` It will show all help commands
  - *Sub lavel commands* `coindex key` and `coindex key set`
  - Making two more sub commands `coindex key show` and ``coindex key remove``
- - 
+ - User input key `coindex key set` with required validation
