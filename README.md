@@ -27,3 +27,7 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
 # Using Coindex cli 
 
  - Run `coindex` from anyware in the terminal
+ - Get an array of path and arguments `coindex key`
+ - `coindex key set` **set** is third parameters
+ - `coindex --help` It will show all help commands
+ - 
