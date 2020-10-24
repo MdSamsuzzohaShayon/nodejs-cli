@@ -11,4 +11,19 @@
  - A collection of common interactive command line user interfaces. `npm i inquirer`
  - The config is stored in a JSON file located in $XDG_CONFIG_HOME or ~/.config.
 Example: *~/.config/configstore/some-id.json* `npm i configstore`
- - 
+ - Setup **bin** from **package.json** `{ "bin" : { "myapp" : "./cli.js" } }` [know more](https://docs.npmjs.com/files/package.json#bin) 
+ - Please make sure that your file(s) referenced in bin starts with #!/usr/bin/env node, otherwise the scripts are started without the node executable!
+ - Link.js is a module loader and conversion tool. It supports Labeled Modules, CommonJS and Asynchronous Module Definitions (AMD). `sudo npm link` 
+
+
+
+
+
+
+
+
+
+
+# Using Coindex cli 
+
+ - Run `coindex` from anyware in the terminal
