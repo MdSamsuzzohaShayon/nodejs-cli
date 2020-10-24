@@ -31,3 +31,5 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
  - `coindex key set` **set** is third parameters
  - `coindex --help` It will show all help commands
  - *Sub lavel commands* `coindex key` and `coindex key set`
+ - Making two more sub commands `coindex key show` and ``coindex key remove``
+ - 
