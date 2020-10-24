@@ -30,4 +30,4 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
  - Get an array of path and arguments `coindex key`
  - `coindex key set` **set** is third parameters
  - `coindex --help` It will show all help commands
- - 
+ - *Sub lavel commands* `coindex key` and `coindex key set`
