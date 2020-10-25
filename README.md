@@ -38,4 +38,4 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
 ### Working with crypto currency api
 
  - `coindex check price` check price of coin
- - 
+ - `coindex check price --coin=BTC --cur=EUR` getting specific currency format
