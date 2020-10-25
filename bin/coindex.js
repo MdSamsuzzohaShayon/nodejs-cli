@@ -3,7 +3,7 @@
 // THIS LINE WHOULD BE AT THE VERY TOP 
 
 
-
+// API KEY = 8f0fd331553b5a398a6f608c4fa9af69
 
 
 const program = require("commander");
@@ -16,6 +16,7 @@ const pkg  = require('../package.json');
 program
     .version(pkg.version)
     .command('key', "Manage API key -- https://nomics.com") // TOP LAVEL COMMANDS
+    .command('check', 'Check coin price info')
     .parse(process.argv);
 
 
