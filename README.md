@@ -33,3 +33,4 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
  - *Sub lavel commands* `coindex key` and `coindex key set`
  - Making two more sub commands `coindex key show` and ``coindex key remove``
  - User input key `coindex key set` with required validation
+ - Remove key and show `coindex key remove` and `coindex key show`
