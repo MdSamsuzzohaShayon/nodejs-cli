@@ -34,3 +34,8 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
  - Making two more sub commands `coindex key show` and ``coindex key remove``
  - User input key `coindex key set` with required validation
  - Remove key and show `coindex key remove` and `coindex key show`
+ 
+### Working with crypto currency api
+
+ - `coindex check price` check price of coin
+ - 
