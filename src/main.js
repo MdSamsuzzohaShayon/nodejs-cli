@@ -50,16 +50,16 @@ const Contact = mongoose.model('con_list', contactSchmea);
 
 // program.option("-f , --force", "Force Install");
 program.command("addContact <name> <number>").description("Add new contact").action((name, number)=>{
-    inquirer.prompt(questions).then(answers=>{
-        console.log(chalk.blue(answers));
-    });
-    // const contact = new Contact({name, number});
-    // console.log("Contact");
-    // contact.save((err, docs)=>{
-    //     if(err) console.log(err);
-    //     console.log(chalk.green("Contact added"), docs);
-        
+    // inquirer.prompt(questions).then(answers=>{
+    //     console.log(chalk.blue(answers));
     // });
+    const contact = new Contact({name, number});
+    console.log("Contact");
+    contact.save((err, docs)=>{
+        if(err) console.log(err);
+        console.log(chalk.green("Contact added"), docs);
+        
+    });
 });
 
 program.parse(process.argv);
