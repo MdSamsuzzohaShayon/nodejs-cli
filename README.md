@@ -39,3 +39,10 @@ Example: *~/.config/configstore/some-id.json* `npm i configstore`
 
  - `coindex check price` check price of coin
  - `coindex check price --coin=BTC --cur=EUR` getting specific currency format
+ - get request sample from  nomics documentation -> standard -> [currencies](http://docs.nomics.com/#tag/Currencies) and check it with postman
+
+```
+https://api.nomics.com/v1/currencies/ticker?key=demo-26240835858194712a4f8cc0dc635c7a&ids=BTC,ETH,XRP&convert=USD
+```
+
+ ![Checking nomics api](screenshots/2.png)
