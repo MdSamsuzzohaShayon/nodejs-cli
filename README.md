@@ -46,3 +46,5 @@ https://api.nomics.com/v1/currencies/ticker?key=demo-26240835858194712a4f8cc0dc6
 ```
 
  ![Checking nomics api](screenshots/2.png)
+
+ - `coindex check price` check crypto currency prices using nomics api
